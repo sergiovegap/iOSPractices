@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		498F240D29F376FE00B63F01 /* GuitarCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F240C29F376FE00B63F01 /* GuitarCamp.swift */; };
+		498F241329F379E800B63F01 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 498F241229F379E800B63F01 /* Preview Content */; };
+		498F242F29F392E200B63F01 /* SleepSoundsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F242E29F392E200B63F01 /* SleepSoundsApp.swift */; };
+		498F243229F393DB00B63F01 /* audioTest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 498F243129F393DB00B63F01 /* audioTest.mp3 */; };
+		498F243429F7505D00B63F01 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F243329F7505D00B63F01 /* PlayerViewModel.swift */; };
+		4990DD4729E856DE00645284 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4990DD4629E856DE00645284 /* ContentView.swift */; };
+		4990DD4929E856E200645284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4990DD4829E856E200645284 /* Assets.xcassets */; };
+		4990DD5529EA4A2D00645284 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4990DD5429EA4A2D00645284 /* NavigationBar.swift */; };
+		4990DD5729EA4AC700645284 /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4990DD5629EA4AC700645284 /* Discover.swift */; };
+		4990DD5929EA4ADB00645284 /* Composer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4990DD5829EA4ADB00645284 /* Composer.swift */; };
+		4990DD5B29EA4AED00645284 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4990DD5A29EA4AED00645284 /* Profile.swift */; };
+		4990DD5D29ED852700645284 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4990DD5C29ED852600645284 /* LoginView.swift */; };
+		49A99C6D29EE2BF2001C4A4C /* PreCampGuitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A99C6C29EE2BF2001C4A4C /* PreCampGuitar.swift */; };
+		49A99C6F29EF7596001C4A4C /* SleepSoundsLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A99C6E29EF7596001C4A4C /* SleepSoundsLaunchScreen.storyboard */; };
+		49E97B2829F0EC76001C5A09 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E97B2729F0EC76001C5A09 /* AudioPlayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		498F240C29F376FE00B63F01 /* GuitarCamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuitarCamp.swift; sourceTree = "<group>"; };
+		498F241229F379E800B63F01 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		498F242E29F392E200B63F01 /* SleepSoundsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepSoundsApp.swift; sourceTree = "<group>"; };
+		498F243129F393DB00B63F01 /* audioTest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audioTest.mp3; sourceTree = "<group>"; };
+		498F243329F7505D00B63F01 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		4990DD4129E856DE00645284 /* SleepSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4990DD4629E856DE00645284 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4990DD4829E856E200645284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4990DD5429EA4A2D00645284 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		4990DD5629EA4AC700645284 /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
+		4990DD5829EA4ADB00645284 /* Composer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composer.swift; sourceTree = "<group>"; };
+		4990DD5A29EA4AED00645284 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		4990DD5C29ED852600645284 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		49A99C6C29EE2BF2001C4A4C /* PreCampGuitar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreCampGuitar.swift; sourceTree = "<group>"; };
+		49A99C6E29EF7596001C4A4C /* SleepSoundsLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SleepSoundsLaunchScreen.storyboard; sourceTree = "<group>"; };
+		49E97B2729F0EC76001C5A09 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4990DD3E29E856DE00645284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		498F243029F393A000B63F01 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				498F243129F393DB00B63F01 /* audioTest.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		4990DD3829E856DE00645284 = {
+			isa = PBXGroup;
+			children = (
+				4990DD4329E856DE00645284 /* SleepSounds */,
+				4990DD4229E856DE00645284 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4990DD4229E856DE00645284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4990DD4129E856DE00645284 /* SleepSounds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4990DD4329E856DE00645284 /* SleepSounds */ = {
+			isa = PBXGroup;
+			children = (
+				498F242E29F392E200B63F01 /* SleepSoundsApp.swift */,
+				4990DD4629E856DE00645284 /* ContentView.swift */,
+				4990DD5C29ED852600645284 /* LoginView.swift */,
+				4990DD5429EA4A2D00645284 /* NavigationBar.swift */,
+				49A99C6C29EE2BF2001C4A4C /* PreCampGuitar.swift */,
+				4990DD5A29EA4AED00645284 /* Profile.swift */,
+				4990DD5829EA4ADB00645284 /* Composer.swift */,
+				498F240C29F376FE00B63F01 /* GuitarCamp.swift */,
+				4990DD5629EA4AC700645284 /* Discover.swift */,
+				49E97B2729F0EC76001C5A09 /* AudioPlayer.swift */,
+				4990DD4829E856E200645284 /* Assets.xcassets */,
+				498F243329F7505D00B63F01 /* PlayerViewModel.swift */,
+				49A99C6E29EF7596001C4A4C /* SleepSoundsLaunchScreen.storyboard */,
+				498F243029F393A000B63F01 /* Sounds */,
+				498F241229F379E800B63F01 /* Preview Content */,
+			);
+			path = SleepSounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4990DD4029E856DE00645284 /* SleepSounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4990DD4F29E856E200645284 /* Build configuration list for PBXNativeTarget "SleepSounds" */;
+			buildPhases = (
+				4990DD3D29E856DE00645284 /* Sources */,
+				4990DD3E29E856DE00645284 /* Frameworks */,
+				4990DD3F29E856DE00645284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepSounds;
+			productName = SleepSounds;
+			productReference = 4990DD4129E856DE00645284 /* SleepSounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4990DD3929E856DE00645284 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4990DD4029E856DE00645284 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4990DD3C29E856DE00645284 /* Build configuration list for PBXProject "SleepSounds" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4990DD3829E856DE00645284;
+			productRefGroup = 4990DD4229E856DE00645284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4990DD4029E856DE00645284 /* SleepSounds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4990DD3F29E856DE00645284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498F241329F379E800B63F01 /* Preview Content in Resources */,
+				498F243229F393DB00B63F01 /* audioTest.mp3 in Resources */,
+				4990DD4929E856E200645284 /* Assets.xcassets in Resources */,
+				49A99C6F29EF7596001C4A4C /* SleepSoundsLaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4990DD3D29E856DE00645284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4990DD5D29ED852700645284 /* LoginView.swift in Sources */,
+				498F240D29F376FE00B63F01 /* GuitarCamp.swift in Sources */,
+				4990DD4729E856DE00645284 /* ContentView.swift in Sources */,
+				4990DD5929EA4ADB00645284 /* Composer.swift in Sources */,
+				49A99C6D29EE2BF2001C4A4C /* PreCampGuitar.swift in Sources */,
+				4990DD5729EA4AC700645284 /* Discover.swift in Sources */,
+				4990DD5529EA4A2D00645284 /* NavigationBar.swift in Sources */,
+				498F242F29F392E200B63F01 /* SleepSoundsApp.swift in Sources */,
+				49E97B2829F0EC76001C5A09 /* AudioPlayer.swift in Sources */,
+				4990DD5B29EA4AED00645284 /* Profile.swift in Sources */,
+				498F243429F7505D00B63F01 /* PlayerViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4990DD4D29E856E200645284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4990DD4E29E856E200645284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4990DD5029E856E200645284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepSounds/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = SleepSoundsLaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergiovegap.SleepSounds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4990DD5129E856E200645284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepSounds/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = SleepSoundsLaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergiovegap.SleepSounds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4990DD3C29E856DE00645284 /* Build configuration list for PBXProject "SleepSounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4990DD4D29E856E200645284 /* Debug */,
+				4990DD4E29E856E200645284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4990DD4F29E856E200645284 /* Build configuration list for PBXNativeTarget "SleepSounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4990DD5029E856E200645284 /* Debug */,
+				4990DD5129E856E200645284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4990DD3929E856DE00645284 /* Project object */;
+}
